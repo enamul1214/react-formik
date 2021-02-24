@@ -1,0 +1,26 @@
+/*
+Theme Name: Html Quick Pack
+Author:
+Author URI:
+Theme URI:
+Front End Developer: Enamul Kabir
+Back End Developer: 
+Project Start:
+Date: 24-02-2021
+*/
+
+
+@import '~bootstrap/scss/functions.scss';
+@import "theme/variables"; // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap or UnderStrap variables here
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Any additional imported files //
+@import "theme/header";
+@import "theme/front-page";
+@import "theme/pages-post";
+@import "theme/elements";
+@import "theme/widgets";
+@import "theme/footer";
+@import "theme/utility";
+@import "theme/plugin-override";
+@import "theme/responsive";

@@ -1,0 +1,45 @@
+.section-title {
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.bg-light {
+    background: $light-bg;
+}
+
+.divider {
+    height: 4px;
+    background: #fff;
+}
+
+.transition {
+    transition: all .4s ease-in-out;
+}
+
+.hyperlink {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    @extend .transition;
+
+    &:focus {
+        outline: 0;
+        outline: none;
+    }
+}
+
+.wow {
+    visibility: hidden;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #555555;
+}
